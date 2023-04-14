@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expensefetching</title>
+</head>
+<style>
+    #body>div {
+          background-color: rgb(132, 121, 133);
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      } 
+  </style>
+<body>
+    <div>
+        <h2 class="title">Form</h2>
+
+          Choose Expenseamount:<input type="number"  id ="item1">
+          Choose Description:<input type="text"  id ="item2">
+          Choose Category:<select id ="item3">
+            <option>Fuel</option>
+            <option>Food</option>
+            <option>Electricity</option>
+            <option>Movie</option>
+          </select>
+          <input type="submit"  value="Add Expense" id="btn">
+        
+    </div>
+    <br>
+    <div id="body">
+    
+
+    </div>
+</body>
+<script src="expense.js"></script>
+</html>
